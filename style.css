@@ -1,0 +1,149 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding-bottom: 300px;
+	background-color: azure;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	background: url("img/26102.jpg") center/cover no-repeat;
+	background-attachment: fixed;
+}
+
+.header {
+	background: url('img/title_img.jpg') center/cover no-repeat;
+	max-width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.header__title {
+	width: 300px;
+	height: 110px;
+
+	background-color: rgba(237, 242, 243, 0.795);
+	margin-left: 20px;
+	text-align: center;
+
+}
+
+hr {
+	max-width: 800px;
+	margin: 0 auto;
+	border: 2px solid rgb(255, 145, 0)
+}
+
+.recommendations__title,
+.name__title,
+.planter__title,
+.photos__title {
+	text-align: center;
+}
+
+.recommendations_article {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: auto;
+	margin: 0 auto;
+	column-gap: 10px;
+}
+
+.recommendations_article_image {
+	width: 400px;
+	height: 225px;
+	background: url("img/the_dutch_house.jpg") center/cover no-repeat;
+	margin-bottom: 10px;
+}
+
+.recommendetions_article_description {
+	width: 400px;
+}
+
+.name_article {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: auto;
+	margin: 0 auto;
+	column-gap: 10px;
+}
+
+.name_article_image {
+	width: 400px;
+	height: 225px;
+	background: url("img/No_Longer_Human_cover.jpg") center/cover no-repeat;
+	margin-bottom: 10px;
+}
+
+.name_article_description {
+	width: 400px;
+}
+
+.planter_article {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	column-gap: 10px;
+}
+
+.planter_article_image {
+	width: 400px;
+	height: 225px;
+	background: url("img/tea_planter.jpg") center/cover no-repeat;
+	margin-bottom: 10px;
+}
+
+.planter_article_description {
+	width: 400px;
+}
+
+
+.photos {
+	width: auto;
+}
+
+.photos__container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
+.photos__container_photo {
+	width: 360px;
+	height: 150px;
+}
+
+.photos__container_photo_element_1 {
+	background: url("img/1.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_2 {
+	background: url("img/2.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_3 {
+	background: url("img/4.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_4 {
+	background: url("img/3.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_5 {
+	background: url("img/5.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_6 {
+	background: url("img/6.jpg") center/cover no-repeat;
+}
