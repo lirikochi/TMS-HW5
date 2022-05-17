@@ -57,8 +57,8 @@ hr {
 }
 
 .recommendations_article_image {
-	width: 400px;
-	height: 225px;
+	width: 250px;
+	height: auto;
 	background: url("img/the_dutch_house.jpg") center/cover no-repeat;
 	margin-bottom: 10px;
 }
@@ -77,8 +77,8 @@ hr {
 }
 
 .name_article_image {
-	width: 400px;
-	height: 225px;
+	width: 250px;
+	height: auto;
 	background: url("img/No_Longer_Human_cover.jpg") center/cover no-repeat;
 	margin-bottom: 10px;
 }
@@ -97,8 +97,8 @@ hr {
 }
 
 .planter_article_image {
-	width: 400px;
-	height: 225px;
+	width: 250px;
+	height: auto;
 	background: url("img/tea_planter.jpg") center/cover no-repeat;
 	margin-bottom: 10px;
 }
