@@ -13,12 +13,12 @@ body {
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
-	background: url("img/26102.jpg") center/cover no-repeat;
+	background: url("img/title_img.jpg") center/cover no-repeat;
 	background-attachment: fixed;
 }
 
 .header {
-	background: url('img/title_img.jpg') center/cover no-repeat;
+	background: url('img/26102.jpg') center/cover no-repeat;
 	max-width: 1000px;
 	height: 500px;
 	margin: 0 auto;
