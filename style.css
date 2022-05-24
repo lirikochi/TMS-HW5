@@ -7,31 +7,20 @@
 body {
 	margin: 0;
 	padding-bottom: 300px;
-	background-color: azure;
+	background-color: url(img/title_img.jpg) center/cover no-repeat;
 }
+
+a:hover {
+background-color: bisque;
+border-bottom: 1px solid;
+}
+
 
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: fit-content;
 	background: url("img/title_img.jpg") center/cover no-repeat;
-	background-attachment: fixed;
-}
-
-.header {
-	background: url('img/26102.jpg') center/cover no-repeat;
-	max-width: 1000px;
-	height: 500px;
-	margin: 0 auto;
-}
-
-.header__title {
-	width: 300px;
-	height: 110px;
-
-	background-color: rgba(237, 242, 243, 0.795);
-	margin-left: 20px;
-	text-align: center;
-
+	background-attachment: fixed;;
 }
 
 hr {
@@ -41,13 +30,29 @@ hr {
 }
 
 .recommendations__title,
+.recommendatins__beginning,
 .name__title,
 .planter__title,
 .photos__title {
 	text-align: center;
 }
 
+.review__form {
+    background-color: antiquewhite;
+    border: 4px solid var(--color-orange);
+	border-radius: 10px;
+	max-width: 600px;
+	padding: 25px;
+	margin: 0 auto;
+	box-shadow: 8px 8px 8px 0 rgb(129, 50, 4);
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+} 
+
 .recommendations_article {
+	height: 500px;
+	width: fit-content;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -68,6 +73,7 @@ hr {
 }
 
 .name_article {
+	height: 500px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -88,6 +94,7 @@ hr {
 }
 
 .planter_article {
+	height: 500px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -147,3 +154,61 @@ hr {
 .photos__container_photo_element_6 {
 	background: url("img/6.jpg") center/cover no-repeat;
 }
+
+.up_button {
+	width: 100px;
+	height: 50px;
+	background-color: rgba(200, 47, 214, 0.322);
+	border: 2px solid var(--color-orange);
+	border-radius: 5px;
+	position: fixed;
+	right: 20px;
+	top: 90%;
+	text-align: center;
+	transition: all 1s ease-in-out;
+}
+
+.topbutton {
+	width:100px;
+	border:2px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	cursor:pointer;
+	color:#333;
+	font-family:verdana;
+	font-size:12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	}
+
+	footer{
+		background-color: url(img/title_img.jpg) center/cover no-repeat;
+		width: 1200px;
+		border: 1px solid plum;
+		padding: 10px;
+		margin: 5px auto;
+	}
+	
+	.field{
+		clear: both;
+		text-align: right;
+	}
+	
+	.linkedinicon{
+		width: 40px;
+		height: auto;
+	}
+	.github{
+		width: 40px;
+		height: auto;
+	}
+	
+	footer{
+		padding: 20px;
+	}
