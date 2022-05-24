@@ -8,4 +8,4 @@ Actions performed:
 5. Favicon was connected to the web-page 
 6. Font "Libre Bodoni" was used 
 
-[Page](https://lirikochi.github.io/TMS-HW5/) is here 
+[Page](https://lirikochi.github.io/TMS-HW5-7/) is here 
